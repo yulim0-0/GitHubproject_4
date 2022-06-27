@@ -7,7 +7,7 @@ public class NewsCard extends JPanel{
     public NewsCard()
     {
     	la=new JLabel("");
-    	la.setForeground(Color.magenta);
+    	la.setForeground(Color.BLUE);
     	ta=new JTextArea();
     	setLayout(null);
     	ta.setEditable(false);

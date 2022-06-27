@@ -14,7 +14,7 @@ import com.sist.main.NetworkMain;
 public class WaitForm extends JPanel{
 	JTable table;
 	DefaultTableModel model;
-	JLabel la=new JLabel("Recipe Top10",JLabel.CENTER);
+	JLabel la=new JLabel("Recip Hit10",JLabel.CENTER);
     public WaitForm()
     {
     	String[] col={"","Title"};
@@ -53,7 +53,7 @@ public class WaitForm extends JPanel{
     		ArrayList<RecipeVO> list=RecipeSystem.RecipeVOTop10();
     		for(RecipeVO m:list)
     		{
-    			URL url=new URL("http:"+m.getPoster());
+    			URL url=new URL(m.getPoster());
     			Image img=NetworkMain.getImage(
     					new ImageIcon(url), 50, 45);
     			Object[] data= {

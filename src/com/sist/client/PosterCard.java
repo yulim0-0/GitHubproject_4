@@ -4,7 +4,6 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 
 import java.net.*;
-import com.sist.data.Music;
 import com.sist.data.RecipeVO;
 import com.sist.main.NetworkMain;
 public class PosterCard extends JPanel{
@@ -22,7 +21,7 @@ public class PosterCard extends JPanel{
     	//poster.setBackground(Color.pink);
     	try
     	{
-    		URL url=new URL("http:"+m.getPoster());
+    		URL url=new URL(m.getPoster());
     		Image img=NetworkMain.getImage(new ImageIcon(url), 168, 170);
     		poster.setIcon(new ImageIcon(img));
     	}catch(Exception ex) {}

@@ -84,7 +84,7 @@ public class RecipeManager extends JPanel implements MouseListener{
 //						cp.df.movie.setText(m.getKey());
 						try
 				    	{
-				    		URL url=new URL("http:"+m.getPoster());
+				    		URL url=new URL(m.getPoster());
 				    		Image img=NetworkMain.getImage(new ImageIcon(url), 500, 450);
 				    		cp.df.posterLa.setIcon(new ImageIcon(img));
 				    		

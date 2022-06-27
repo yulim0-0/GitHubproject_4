@@ -17,7 +17,7 @@ public class HomeForm extends JPanel{
     	b1=new JButton("이전");
     	b2=new JButton("다음");
     	JPanel p=new JPanel();
-    	String[] title={"Top100","종류별","상황별","재료별","방법별","테마별"};
+    	String[] title={"Hit100","종류별","상황별","재료별","방법별","테마별"};
     	for(int i=0;i<m.length;i++)
     	{
     		m[i]=new JButton(title[i]);

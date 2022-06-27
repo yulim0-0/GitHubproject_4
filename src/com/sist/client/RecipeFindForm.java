@@ -42,7 +42,7 @@ public class RecipeFindForm extends JPanel{
    {
 	   tf=new JTextField();
 	   btn=new JButton("검색");
-	   String[] col={"순위","","음식명","쉐프명"};
+	   String[] col={"순위","","레시피명","쉐프명"};
 	   //   int     ImageIcon String String 
 	   Object[][] row=new Object[0][4];
 	   model=new DefaultTableModel(row,col)
