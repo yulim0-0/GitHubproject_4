@@ -48,17 +48,17 @@ public class DetailForm extends JPanel implements ActionListener{
 		{
 			cp.card.show(cp,"HF");
 		}
-//		else if(e.getSource()==b2)
-//		{
-//			try
-//			{
-//				Runtime.getRuntime().exec("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe "
-//						             +"http://youtube.com/embed/"+movie.getText());
-//			}catch(Exception ex){}
-//		}
+		else if(e.getSource()==b2)
+		{
+			try
+			{
+				 Runtime.getRuntime().exec("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe "
+                         +"http://www.10000recipe.com/"+link.getText().substring(3));
+			}catch(Exception ex){}
+		}
 	}
 }
-
+///Applications/Google Chrome.app
 
 
 

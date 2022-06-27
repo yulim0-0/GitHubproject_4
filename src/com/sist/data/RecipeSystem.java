@@ -40,7 +40,8 @@ public class RecipeSystem {
 	   try
 	   {
 		   FileInputStream fis=
-				   new FileInputStream("/Users/yulim/java_data/recipe.txt");
+				  // new FileInputStream("/Users/yulim/java_data/recipe.txt");
+		             new FileInputStream("c:\\java_data\\recipe.txt");
 		   ObjectInputStream ois=
 				   new ObjectInputStream(fis);
 		   list=(ArrayList<RecipeVO>)ois.readObject();
