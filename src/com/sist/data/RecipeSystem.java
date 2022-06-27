@@ -49,6 +49,8 @@ public class RecipeSystem {
 	   }catch(Exception ex){}
    }
    
+   
+   
     public static ArrayList<RecipeVO> getList() {
 	  return list;
     }

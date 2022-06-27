@@ -46,5 +46,9 @@ public class RecipeVO implements Serializable{
 			this.hit = hit;
 		}
 	
+		
+		
+		
+		
 		}
 	

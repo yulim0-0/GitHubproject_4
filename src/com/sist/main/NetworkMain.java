@@ -252,10 +252,10 @@ public class NetworkMain extends JFrame implements ActionListener,Runnable{
 			{
 				for(RecipeVO m:fList)
 				{
-					URL url=new URL("http:"+m.getPoster());
+					URL url=new URL(m.getPoster());
 					Image img=getImage(new ImageIcon(url), 30, 30);
 					Object[] data= {
-							m.getNo(),
+							
 							new ImageIcon(img),
 							m.getTitle(),
 							m.getChef()
