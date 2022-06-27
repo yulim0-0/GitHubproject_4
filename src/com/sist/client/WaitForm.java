@@ -14,7 +14,7 @@ import com.sist.main.NetworkMain;
 public class WaitForm extends JPanel{
 	JTable table;
 	DefaultTableModel model;
-	JLabel la=new JLabel("Recip Hit10",JLabel.CENTER);
+	JLabel la=new JLabel("Recipe Hit10",JLabel.CENTER);
     public WaitForm()
     {
     	String[] col={"","Title"};
